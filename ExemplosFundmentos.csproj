@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--Esta linha define o SDK do projeto. O SDK
+é um conjunto de meta e tarefas do MSBuild qua são responsaveis por compilar, empacotar e publicar o código -->
+
+  <PropertyGroup>
+    <!-- Esta linha define o inicio do grupo de propriedades-->
+    <OutputType>Exe</OutputType>
+    <!-- Esta linha define o tipo de saida do projeto
+    nesse caso EXE indica que será um executavel-->
+    <TargetFramework>net7.0</TargetFramework>
+    <!-- Esta propriedade define a versão do .NET-->
+    <RootNamespace>ExemplosFundamentos</RootNamespace>
+    <!-- <RootNamespace>Exemplos Fundamentos </RootNamespace>: Esta propriedade define o namespace raiz do projeto. Neste caso, DIO_C_ é o namespace raiz-->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!--Essa propriedade habilita ou desabilita os usings implicitos no codigo-->
+    <Nullable>enable</Nullable>
+    <!--Essa propriedade habilita ou desabilita as opções nullable(Esta propriedade habilita ou desabilita a análise de nulidade de referência. Quando habilitado, o compilador irá avisar sobre possíveis referências nulas no código)-->
+  </PropertyGroup>
+
+</Project>

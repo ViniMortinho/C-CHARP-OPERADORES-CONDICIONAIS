@@ -1,0 +1,17 @@
+# Convenções de Nomenclatura em C#
+
+As convenções de nomenclatura são maneiras padronizadas de nomear coisas no código, como variáveis, métodos, classes e constantes. Isso ajuda a deixar o código mais organizado e fácil de entender. Aqui estão algumas delas:
+
+## Camel Case
+A primeira letra é minúscula, e a primeira letra de cada nova palavra subsequente é maiúscula. 
+Exemplos: `coisasParaFazer`, `idadeDoAmigo`, `valorFinal`.
+
+## Pascal Case
+Todas as palavras começam com a primeira letra maiúscula. 
+Exemplos: `CoisasParaFazer`, `IdadeDoAmigo`, `ValorFinal`.
+
+## Snake Case
+As palavras são escritas com letras minúsculas e separadas pelo traço underline (_). 
+Exemplo: `user_login_count`.
+
+No C#, geralmente usamos `camelCase` para variáveis e métodos, `PascalCase` para classes e enumerações, e `SCREAMING_SNAKE_CASE` (snake case com todas as letras maiúsculas) para constantes.
