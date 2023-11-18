@@ -1,5 +1,7 @@
-# DIO-C SHARP
-Repositório Referente ao curso Formação .NET Developer pela DIO
+# Formação .NET Developer - DIO-C#
+
+Este repositório é referente ao curso de Formação .NET Developer oferecido pela Digital Innovation One (DIO).
+
 ## Objetivos do Curso
 
 O objetivo deste curso é capacitar os alunos a compreenderem o básico da linguagem de programação C#, com foco em desenvolvimento web utilizando ASP.Net Core MVC. Além disso, será ensinado como realizar manipulação de arquivos e diretórios, bem como como lidar com exceções. O curso também irá abordar as principais estruturas de dados, como vetores e listas.
@@ -8,10 +10,9 @@ O objetivo deste curso é capacitar os alunos a compreenderem o básico da lingu
 
 Este projeto é o resultado do curso de Formação .NET Developer realizado na Digital Innovation One (DIO). O curso abordou uma variedade de tópicos, incluindo fundamentos de C#, ASP.NET, Entity Framework, LINQ, e muito mais. O objetivo do curso foi fornecer uma compreensão sólida do desenvolvimento .NET e preparar os alunos para criar aplicações robustas usando C# e .NET.
 
+## Conteúdo
 
-
-##CONTEÚDO
-OPERADORES CONDICIONAIS
+### Operadores Condicionais
 
 - A instrução `if` executará uma instrução somente se uma expressão booleana fornecida for avaliada como verdadeira.
 - A instrução `if-else` permite que você escolha qual dos dois caminhos de código seguir com base em uma expressão booleana.
@@ -25,15 +26,10 @@ Você pode aninhar instruções `if` para verificar várias condições. Em um c
 - C# 7
 
 ## Execução
- -Criando um projeto C#
- Então, saca só, quando você manda aquele `dotnet new console`, 
- o .NET já sai criando um projeto de console novinho em folha pra você. 
- Ele gera um arquivo chamado `Program.cs` que vem com um método `Main`, 
- que é tipo a porta de entrada do seu aplicativo, sacou? Agora,
- a pasta `bin`, que é onde ficam os arquivos de saída do seu projeto, 
- essa só aparece quando você executa `dotnet build` ou `dotnet publish`.
- A pasta Bin bin só se torna necessária quando você precisa compilar e executar seu projeto.
 
+### Criando um projeto C#
+
+Quando você executa o comando `dotnet new console`, o .NET cria um novo projeto de console para você. Ele gera um arquivo chamado `Program.cs` que vem com um método `Main`, que é a porta de entrada do seu aplicativo. A pasta `bin`, que é onde ficam os arquivos de saída do seu projeto, só aparece quando você executa `dotnet build` ou `dotnet publish`.
 
 ## Como usar
 
@@ -53,4 +49,8 @@ Detalhes de como contribuir para o projeto.
 ## Licença
 
 Informações sobre a licença.
+MIT.
 
+`Este curso foi habilmente conduzido e ministrado pelo professor Leonardo Buta. Sua dedicação e conhecimento em .NET e C# foram fundamentais para a criação deste curso. Agradeço ao professor Leonardo por sua contribuição inestimável para a educação e o desenvolvimento de futuros programadores .NET.
+https://github.com/leonardo-buta
+`
