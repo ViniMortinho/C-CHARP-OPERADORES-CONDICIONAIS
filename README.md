@@ -12,13 +12,39 @@ Este projeto é o resultado do curso de Formação .NET Developer realizado na D
 
 ## Conteúdo
 
-### Operadores Condicionais
+# Operadores Condicionais
 
-- A instrução `if` executará uma instrução somente se uma expressão booleana fornecida for avaliada como verdadeira.
-- A instrução `if-else` permite que você escolha qual dos dois caminhos de código seguir com base em uma expressão booleana.
-- A instrução `switch` seleciona uma lista de instruções a ser executada com base em uma correspondência de padrão com uma expressão.
+Os operadores condicionais são fundamentais para a programação, pois permitem controlar o fluxo do código com base em certas condições. Eles avaliam uma expressão booleana e executam diferentes blocos de código dependendo do resultado.
 
-Você pode aninhar instruções `if` para verificar várias condições. Em um contexto de expressão, você pode usar o operador condicional `?:` para avaliar uma das duas expressões com base no valor de uma expressão booleana.
+## Instruções Condicionais
+
+- `if`: A instrução `if` executará uma instrução somente se uma expressão booleana fornecida for avaliada como verdadeira.
+- `if-else`: A instrução `if-else` permite que você escolha qual dos dois caminhos de código seguir com base em uma expressão booleana.
+- `switch`: A instrução `switch` seleciona uma lista de instruções a ser executada com base em uma correspondência de padrão com uma expressão.
+
+## Operador Condicional
+
+- `?:`: Em um contexto de expressão, você pode usar o operador condicional `?:` para avaliar uma das duas expressões com base no valor de uma expressão booleana.
+
+Você também pode aninhar instruções `if` para verificar várias condições. Por exemplo, você pode usar um `if` para executar um bloco de código se a condição for verdadeira, ou usar um `else` para executar um bloco de código alternativo se a condição for falsa. Isso permite tomar decisões no seu código com base em certas condições.
+
+Para mais informações, você pode consultar a documentação oficial da Microsoft sobre operadores condicionais.
+[Operadores Condicionais](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/oper
+ators/conditional-operator)
+---
+# Loops
+## Instruções Repetidas
+## Loop While
+## Loop For
+## Loop Foreach
+## Loop Do While
+## Loop Do Until
+## Loop Switch Case
+Para mais informações, você pode consultar a documentação oficial da Microsoft sobre loops.
+[Loops](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/lin
+q/loops)
+---
+
 
 ## Requisitos
 
