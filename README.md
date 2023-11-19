@@ -1,22 +1,10 @@
-# Formação .NET Developer - DIO-C#
-
-Este repositório é referente ao curso de Formação .NET Developer oferecido pela Digital Innovation One (DIO).
-
-## Objetivos do Curso
-
-O objetivo deste curso é capacitar os alunos a compreenderem o básico da linguagem de programação C#, com foco em desenvolvimento web utilizando ASP.Net Core MVC. Além disso, será ensinado como realizar manipulação de arquivos e diretórios, bem como como lidar com exceções. O curso também irá abordar as principais estruturas de dados, como vetores e listas.
-
-## Conteúdo Programático
-
-Este projeto é o resultado do curso de Formação .NET Developer realizado na Digital Innovation One (DIO). O curso abordou uma variedade de tópicos, incluindo fundamentos de C#, ASP.NET, Entity Framework, LINQ, e muito mais. O objetivo do curso foi fornecer uma compreensão sólida do desenvolvimento .NET e preparar os alunos para criar aplicações robustas usando C# e .NET.
-
-## Conteúdo
-
 # Operadores Condicionais
 
-Os operadores condicionais são fundamentais para a programação, pois permitem controlar o fluxo do código com base em certas condições. Eles avaliam uma expressão booleana e executam diferentes blocos de código dependendo do resultado.
+Os operadores condicionais são uma ferramenta essencial para a programação, pois permitem controlar o fluxo do código com base em certas condições. Eles avaliam uma expressão booleana e executam diferentes blocos de código dependendo do resultado.
 
 ## Instruções Condicionais
+
+A linguagem C# fornece três instruções condicionais:
 
 - `if`: A instrução `if` executará uma instrução somente se uma expressão booleana fornecida for avaliada como verdadeira.
 - `if-else`: A instrução `if-else` permite que você escolha qual dos dois caminhos de código seguir com base em uma expressão booleana.
@@ -24,59 +12,52 @@ Os operadores condicionais são fundamentais para a programação, pois permitem
 
 ## Operador Condicional
 
-- `?:`: Em um contexto de expressão, você pode usar o operador condicional `?:` para avaliar uma das duas expressões com base no valor de uma expressão booleana.
+O operador condicional `?:` é uma forma concisa de escrever uma instrução if-else em um contexto de expressão. Ele avalia uma expressão booleana e retorna um valor dependendo do resultado.
 
-Você também pode aninhar instruções `if` para verificar várias condições. Por exemplo, você pode usar um `if` para executar um bloco de código se a condição for verdadeira, ou usar um `else` para executar um bloco de código alternativo se a condição for falsa. Isso permite tomar decisões no seu código com base em certas condições.
+```csharp
+int idade = 18;
 
-Para mais informações, você pode consultar a documentação oficial da Microsoft sobre operadores condicionais.
-[Operadores Condicionais](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/oper
-ators/conditional-operator)
----
-# Loops
-## Instruções Repetidas
-## Loop While
-## Loop For
-## Loop Foreach
-## Loop Do While
-## Loop Do Until
-## Loop Switch Case
-Para mais informações, você pode consultar a documentação oficial da Microsoft sobre loops.
-[Loops](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/lin
-q/loops)
----
+string mensagem = idade >= 18 ? "Você é maior de idade." : "Você é menor de idade.";
 
+Console.WriteLine(mensagem); // "Você é maior de idade."
 
-## Requisitos
+##Instruções Aninhadas
+ - Você também pode aninhar instruções if para verificar várias condições. Por exemplo, você pode usar um if para executar um bloco de código se a condição for verdadeira, ou usar um else para executar um bloco de código alternativo se a condição for falsa. Isso permite tomar decisões no seu código com base em certas condições.
+ int idade = 17;
 
-- .NET Core 2.0 ou superior
-- C# 7
+if (idade >= 18)
+{
+    Console.WriteLine("Você é maior de idade.");
+}
+else
+{
+    if (idade >= 16)
+    {
+        Console.WriteLine("Você é menor de idade, mas está perto de ser maior de idade.");
+    }
+    else
+    {
+        Console.WriteLine("Você é menor de idade e ainda não pode votar.");
+    }
+}
 
-## Execução
+##Classe Pessoa
+A classe Pessoa abaixo serviu de base para a elaboração deste estudo:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-### Criando um projeto C#
+namespace ExemplosFundamentos.models
+{
+    public class Pessoa
+    {
+        public string Nome  { get; set; }
+        public int Idade { get; set; }
 
-Quando você executa o comando `dotnet new console`, o .NET cria um novo projeto de console para você. Ele gera um arquivo chamado `Program.cs` que vem com um método `Main`, que é a porta de entrada do seu aplicativo. A pasta `bin`, que é onde ficam os arquivos de saída do seu projeto, só aparece quando você executa `dotnet build` ou `dotnet publish`.
-
-## Como usar
-
-1. Clone o repositório
-2. Navegue até a pasta do projeto
-3. Execute `dotnet restore`
-4. Execute `dotnet run`
-
-## Estrutura do Projeto
-
-Descrição da estrutura do projeto.
-
-## Contribuição
-
-Detalhes de como contribuir para o projeto.
-
-## Licença
-
-Informações sobre a licença.
-MIT.
-
-Este curso foi habilmente conduzido e ministrado pelo professor Leonardo Buta. Sua dedicação e conhecimento em .NET e C# foram fundamentais para a criação deste curso. Agradeço ao professor Leonardo por sua contribuição inestimável para a educação e o desenvolvimento de futuros programadores .NET.
-https://github.com/leonardo-buta
-
+        public void Apresentar()
+        {
+            Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos.");
+        }
+    }
+}
