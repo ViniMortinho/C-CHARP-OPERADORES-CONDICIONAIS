@@ -72,3 +72,7 @@ else {
 ```
 
 Para mais informações sobre operadores condicionais em C#, você pode consultar a [documentação oficial da Microsoft](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/conditional-operator).
+
+Agradeço ao professor Leonardo Buta por sua contribuição para este curso.
+Você pode encontrar mais sobre ele em seu perfil no GitHub 
+[aqui."https://github.com/leonardo-buta"]
